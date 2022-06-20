@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5d4d4;
+    overflow: hidden;
+    text-align: center;
+}
+.key-con{
+    border: 1px solid #181717;
+    background-color: white;
+    box-shadow: 1px 1px 3px #181717;
+    display: inline-flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 15px;
+    margin: 20px;
+    min-width: 100px;
+    flex-direction: column;
+    font-weight: bold;
+    position: relative;
+}
+.key-con small{
+    position: absolute;
+    top:-25px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #615c5c;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
